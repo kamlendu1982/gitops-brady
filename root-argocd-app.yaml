@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/kamlendu1982/gitops-brady.git
     targetRevision: main
-    path: appsets/aap
+    #path: appsets/aap
   destination:
     server: https://kubernetes.default.svc
     namespace: openshift-gitops
